@@ -105,7 +105,7 @@ const Hero: React.FC = () => {
             <a
               href="/gnrl.docx"
               download="Rahul_Kumar_Singh_Resume.docx"
-              className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-green-700 transition-colors duration-300"
+              className="px-6 py-3 bg-white dark:bg-gray-800 text-gray-900 dark:text-white font-medium rounded-lg shadow-md hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-300"
             >
               Download Resume
             </a>
