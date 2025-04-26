@@ -58,8 +58,7 @@ const Hero: React.FC = () => {
         <div className="order-1 md:order-2 flex justify-center">
           <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center shadow-xl overflow-hidden">
             <img
-              src="https://media.licdn.com/dms/image/v2/D4D03AQGfGJ8C5wnuaw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1670562235684?e=1750896000&v=beta&t=fR_M8Mb6ys5ZoxV_XT4Wo0huUfCzs0pjoUIFvjNJoMo"
-              alt="Rahul Kumar Singh"
+              src="https://media.licdn.com/dms/image/v2/D5603AQGK-yU1M7bXGA/profile-displayphoto-shrink_400_400/B56ZZxLfCMGoAg-/0/1745655558806?e=1750896000&v=beta&t=KD45Eh7Laz3NLEpmiF9AGlpZKbE-6l-TkrckNh1g0Co"
               className="w-full h-full object-cover"
             />
           </div>
