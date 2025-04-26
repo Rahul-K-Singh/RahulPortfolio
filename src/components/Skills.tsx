@@ -148,6 +148,7 @@ const Skills: React.FC = () => {
       skills: [
         { name: 'HTML' },
         { name: 'CSS' },
+        { name: 'JavaScript' },
       ],
     },
     {
