@@ -86,7 +86,7 @@ const Skills: React.FC = () => {
           ))}
         </div>
 
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4">
             <LineChart className="inline-block mr-2 mb-1" size={24} />
             Data Analysis Workflow
@@ -108,7 +108,7 @@ const Skills: React.FC = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
