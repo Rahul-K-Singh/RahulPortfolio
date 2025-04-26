@@ -14,25 +14,25 @@ const Certificates: React.FC = () => {
       title: 'Visualization with Excel',
       issuer: 'Coursera',
       date: 'April 2024',
-      url: 'https://www.coursera.org',
+      url: 'https://www.coursera.org/account/accomplishments/specialization/QFELBJ6J7K2F',
     },
     {
       title: 'Supervised Machine Learning: Regression and Classification',
       issuer: 'Coursera',
       date: 'October 2024',
-      url: 'https://www.coursera.org',
+      url: 'https://www.coursera.org/account/accomplishments/verify/1USQV1LER220',
     },
     {
       title: 'Data Structures and Algorithms - Self paced',
       issuer: 'Geeks for Geeks',
       date: 'July 2024',
-      url: 'https://www.geeksforgeeks.org',
+      url: 'https://media.geeksforgeeks.org/courses/certificates/e80e1f728a797ae2b8f40a2dbe93e123.pdf',
     },
     {
       title: 'R Programming',
       issuer: 'Coursera',
       date: 'April 2024',
-      url: 'https://www.coursera.org',
+      url: 'https://www.coursera.org/account/accomplishments/specialization/2KDQATMQ3DSG',
     },
   ];
 
@@ -46,8 +46,8 @@ const Certificates: React.FC = () => {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {certificates.map((certificate, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="bg-gray-50 dark:bg-gray-700 rounded-lg p-6 shadow-md border-t-4 border-blue-500 transition-transform hover:shadow-lg hover:-translate-y-1"
             >
               <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-blue-100 dark:bg-blue-900">
@@ -60,9 +60,9 @@ const Certificates: React.FC = () => {
                 <p className="text-gray-600 dark:text-gray-300">{certificate.issuer}</p>
                 <p className="text-sm text-gray-500 dark:text-gray-400">{certificate.date}</p>
                 {certificate.url && (
-                  <a 
-                    href={certificate.url} 
-                    target="_blank" 
+                  <a
+                    href={certificate.url}
+                    target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-blue-600 dark:text-blue-400 mt-3 hover:underline"
                   >
